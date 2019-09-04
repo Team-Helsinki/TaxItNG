@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+:root{
+    --primary-color: #6666ff;
+    --dark-color: #141414;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.main{
+    padding: 10px 10%;
+    color: #141414;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+input[type="text"], input[type="email"]{
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid var(--dark-color);
+    padding: 10px;
+    text-align: center;
+    color: darkgrey;
+    width: 350px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.name, .phone, .email, .address{
+    padding: 30px;
+}
+.name_phone, .email_add{
+    display: flex;
+}
+
+.name_phone span, .email_add span,
+ .status span, .photo
+ {
+color: var(--primary-color);
+font-weight: 600;
+padding: 10px;
+}
+
+.submit, .upload_btn{
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 50px;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    
+    font-size: 18px;
+    background: none;
+    outline: none;
+    cursor: pointer;
+}
+.submit{
+    justify-content: center;
+}
+.justify-submit{
+text-align: right;
+}
+
+
+h2{
+    text-align: center;
+    color: #141414;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+.submit:hover, .upload_btn:hover{
+    background-color: var(--primary-color);
+    color: antiquewhite;
+}
+
+main{
+    margin: 0 auto;
+    padding: 30px;
+    margin-bottom: -80px;
+}
+
+.upload_btn2{
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 50px;
+    border: 1px solid var(--primary-color);
+    color: #fff;
+    width: 30%;
+    font-size: 18px;
+    background: var(--primary-color);
+    outline: none;
+    cursor: pointer;
+}
+
+main :nth-child(1){
+    margin-bottom: 10px;
+}
+.status{
+    padding-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: #faebd7;
+}

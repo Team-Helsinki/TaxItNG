@@ -1,0 +1,433 @@
+body {
+    display: flex;
+    flex-flow: column;
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Sans Pro', Helvetica;
+}
+
+.logo-section img {
+    width: 130px;
+    height: 55px;
+    margin-left: 200px;
+    margin-top: 50px;
+    padding-left: 20px;
+}
+
+.logo img {
+    width: 130px;
+    height: 55px;
+    margin-left: 200px;
+    margin-top: 50px;
+    padding-left: 20px;
+}
+
+.header {
+    height: 100px;
+    background: white;
+    padding: 0 20px;
+    color: #fff;
+}
+
+.menu {
+    float: right;
+    line-height: 100px;
+}
+
+.menu a {
+    color: #3F3D56;
+    ;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+.logo {
+    line-height: 100px;
+    float: left;
+}
+
+.btn {
+    color: #FFF;
+    background-color: #6666ff;
+    border-radius: 20px;
+    width: 200px;
+    height: 42px;
+    border: none;
+    font-size: 18px;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.btn-pay {
+    color: #FFF;
+    background-color: #6666ff;
+    border-radius: 20px;
+    width: 100%;
+    height: 42px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.login-btn {
+    color: #FFF;
+    background-color: #6666ff;
+    border-radius: 20px;
+    width: 120px;
+    height: 35px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.landing {
+    height: 50vh;
+    margin-top: 150px;
+    padding-top: 30px;
+    display: inline-block;
+}
+
+.landing h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0px;
+}
+
+.landing p {
+    font-size: 18px;
+}
+
+.landing-text {
+    width: 40%;
+    margin-left: 200px;
+    padding-left: 20px;
+    float: left;
+}
+
+.landing-image {
+    width: 30%;
+    float: right;
+    padding-top: 20px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+}
+
+.info {
+    background: #00091a;
+    color: #FFF;
+    opacity: 0.8;
+    height: 620px;
+    display: block;
+    margin-top: 50px;
+}
+
+.cc-pay,
+.projects {
+    width: 35%;
+    margin-left: 200px;
+    padding-left: 20px;
+    margin-top: 70px;
+}
+
+.card-image {
+    width: 30%;
+    float: right;
+    margin-top: -180px;
+}
+
+.project-image {
+    width: 30%;
+    float: right;
+    margin-top: -150px;
+}
+
+.card {
+    padding-top: 50px;
+}
+
+.fund-project {
+    padding-top: 50px;
+}
+
+.midpage {
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+footer {
+    background: #00091a;
+    color: #FFF;
+    opacity: 0.8;
+    height: 40vh;
+    margin-top: 200px;
+}
+
+.footer-contents {
+    margin-left: 200px;
+    width: 100%;
+}
+
+.sm a {
+    color: #FFF;
+}
+
+.sm a:hover {
+    color: #6666ff;
+}
+
+.about,
+.contact,
+.news,
+.social {
+    width: 20%;
+    float: left;
+    padding: 20px;
+}
+
+.about h4 {
+    color: #6666ff;
+}
+
+.contact h4 {
+    color: #6666ff;
+}
+
+.news h4 {
+    color: #6666ff;
+}
+
+.social h4 {
+    color: #6666ff;
+}
+
+.contact a {
+    color: #6666ff;
+}
+
+.contact a:hover {
+    color: #FFF;
+}
+
+.copyright {
+    float: left;
+}
+
+#go-btn {
+    color: #FFF;
+    background-color: #6666ff;
+    width: 50px;
+    height: 21px;
+    border: none;
+    font-size: 16px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.calculate {
+    background: #ecf2f9;
+    width: 350px;
+    margin: -110px auto;
+    padding: 35px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.calculate h2 {
+    color: #002699;
+}
+
+.calculate .input {
+    padding: 13px 0 13px 25px;
+    width: 100%;
+    text-align: center;
+    border: 2px solid #dddddd;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    word-wrap: 3px;
+    outline: none;
+    color: #555555;
+}
+
+.calculate .income {
+    width: 91.5%;
+    letter-spacing: 1px;
+    word-wrap: 3px;
+    outline: none;
+    color: #555555;
+    padding: 13px 0 13px 25px;
+    border: 2px solid #dddddd;
+    border-radius: 5px;
+}
+
+.calculate .textinput {
+    width: 91.5%;
+    letter-spacing: 1px;
+    word-wrap: 3px;
+    outline: none;
+    color: #555555;
+    padding: 13px 0 13px 25px;
+    border: 2px solid #dddddd;
+    border-radius: 5px;
+}
+
+.calculate .label {
+    display: block;
+    color: #555555;
+    margin-bottom: 6px;
+}
+
+.menu .active {
+    color: #6666ff;
+    font-weight: bold;
+}
+
+.calculate .percent {
+    display: none;
+    color: #ff0000;
+}
+
+
+/** About US and Team Page Stle **/
+
+.about-section {
+    color: black;
+    width: 80%;
+    margin: auto auto;
+    padding: 1rem 0.5rem 0.5rem 1rem;
+}
+
+.about-section h2,
+h3 {
+    text-align: center;
+}
+
+.about-section p {
+    text-align: justify;
+}
+
+#partners {
+    color: black;
+    width: 80%;
+    margin: auto auto;
+    padding: 1rem 0.5rem 0.5rem 1rem;
+    text-align: center;
+}
+
+#team {
+    color: black;
+    width: 80%;
+    margin: auto auto;
+    padding: 1rem 0.5rem 0.5rem 1rem;
+}
+
+#team h2 {
+    text-align: center;
+}
+
+#team-members {
+    width: 90%;
+    margin: 5px auto 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px 20px 0 20px;
+    margin-bottom: 2rem;
+    line-height: 0%;
+}
+
+.member {
+    border-radius: 0px;
+    padding: 1.5rem;
+    margin-bottom: 0.7rem;
+    text-align: center;
+}
+
+.member img {
+    border-radius: 50%;
+}
+
+.member h4 {
+    color: black;
+    font-weight: 500px;
+    font-style: oblique;
+}
+
+.member p {
+    color: black;
+    font-style: italic;
+}
+
+.aboutus-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    min-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.logo-section {
+    display: flex;
+    padding: 30px;
+    color: black;
+    border-radius: 12px;
+}
+
+.team-btn {
+    color: #FFF;
+    background-color: #6666ff;
+    border-radius: 20px;
+    width: 220px;
+    height: 50px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#team button {
+    margin: auto;
+    display: inline-block;
+}
+
+.card-section {
+    display: flex;
+    padding: 30px;
+    color: black;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+
+/* Change styles for span and cancel button on extra small screens */
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 50%;
+    }
+}
+
+#mission {
+    font-weight: bold;
+    font-style: italic;
+    text-align: left;
+}
+
+.tax-photo {
+    width: 60%;
+    height: 58%;
+    align-self: center;
+    padding-left: 20%;
+}
