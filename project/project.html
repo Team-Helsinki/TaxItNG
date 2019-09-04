@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Dasboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://kit.fontawesome.com/f618f790f8.js"></script>
+  <link rel="stylesheet" type="text/css" media="screen" href="project.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+  "
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <div id="">
+    <header>
+      <nav>
+        <ul class="menu">
+          <li class="logo">
+            <a href="#"><b>TaxItNG</b> </a>
+          </li>
+          <li class="">
+            <a href="#"><b>About</b> </a>
+          </li>
+          <li class="">
+            <a href="#"><b>Contact Us</b> </a>
+          </li>
+        </ul>
+        <ul class="pull-right">
+          <li class="dropdown">
+            <a href="#">Oladapo</a>
+            <div class="dropdown-content">
+              <ul>
+                <li>Setting</li>
+                <li>Logout</li>
+              </ul>
+            </div>
+          </li>
+          <li class="toggle">
+            <a href="#"><i class="fas fa-bars"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="main flex-container">
+      <main class="" id="project">
+        <header>
+          <h2>Projects</h2>
+        </header>
+        <section>
+          <div class="flex-container">
+            <div class="col">
+              <a href="fully-funded-project.html">Fully funded projects</a>
+            </div>
+            <div class="col"></div>
+            <div class="">
+              <button class=" btn btn-default pull-right" onclick="showHide()">Select locations to fund <i
+                  style="margin-left: 4px;" class="fas fa-angle-right"></i></button>
+              <div class="form-container" id="form-container">
+                <form>
+                  <div class="form-group">
+                    <label for="state">State</label>
+                    <select type="state" class="form-control" id="state" aria-describedby="stateHelp"
+                      placeholder="Select State">
+                      <option>Lagos</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="local-goverment">LGA</label>
+                    <select type="local-goverment" class="form-control" id="local-goverment"
+                      placeholder="Select Local Government">
+                      <option>Ikorodu</option>
+                    </select>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Find Project</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="flex-container">
+            <div class="col">
+              <div class="card">
+                <img class="card-img"
+                  src="https://images.pexels.com/photos/1029783/pexels-photo-1029783.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+
+                <div class="card-body">
+                  <h5>ELEME CRUDE OIL REFINERY</h5>
+                  <small>PROJECT STATUS: <span>50%</span></small>
+                  <p>
+                    For many years Nigeria has suffered the indignity of being
+                    the only top six OPEC Nation without the capacity to refine
+                    enough petroleum to satisfy its local consumption
+                    <a href="project-details.html">Read more</a>
+                  </p>
+                  <a href="#">Fund Project</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img class="card-img"
+                  src="https://images.pexels.com/photos/162557/architecture-construction-build-building-162557.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+                <div class="card-body">
+                  <h5>FARMit – MINISTRY OF AGRICULTURE</h5>
+                  <small>PROJECT STATUS: <span>0%</span></small>
+                  <p>
+                    Food self-sufficiency is a matter of National security as it is dangerous for any nation to be
+                    dependent on others to feed its own population.
+                    <a href="#">Read more</a>
+                  </p>
+                  <a href="#">Fund Project</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img class="card-img"
+                  src="https://images.pexels.com/photos/2406271/pexels-photo-2406271.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+                <div class="card-body">
+                  <h5>ELEME CRUDE OIL REFINERY</h5>
+                  <small>PROJECT STATUS: <span>50%</span></small>
+                  <p>
+                    For many years Nigeria has suffered the indignity of being
+                    the only top six OPEC Nation without the capacity to refine
+                    enough petroleum to satisfy its local consumption
+                    <a href="#">Read more</a>
+                  </p>
+                  <a href="#">Fund Project</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img class="card-img"
+                  src="https://images.pexels.com/photos/93400/pexels-photo-93400.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+                <div class="card-body">
+                  <h5>ELEME CRUDE OIL REFINERY</h5>
+                  <small>PROJECT STATUS: <span>50%</span></small>
+                  <p>
+                    For many years Nigeria has suffered the indignity of being
+                    the only top six OPEC Nation without the capacity to refine
+                    enough petroleum to satisfy its local consumption
+                    <a href="#">Read more</a>
+                  </p>
+                  <a href="#">Fund Project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+  <script>
+    function showHide() {
+
+      var x = document.getElementById("form-container");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  </script>
+</body>
+
+</html>
