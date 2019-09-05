@@ -69,7 +69,7 @@ const members = [{
         role: "Front End Development",
         image: "https://res.cloudinary.com/charlesnwahiwe/image/upload/v1566621883/profilepic.jpg",
         cvlink: "https://bizcoachcharles.github.io/StartNG/",
-        contribution: "I served in content development team, where I developed content for project page, and also as editor.			",
+        contribution: "I served in content development team, where I developed content for project page, and also as editor.			"
     },
 
     {
@@ -81,18 +81,28 @@ const members = [{
         contribution: "I created the sign in and Sign Up page. Supported the design of the Team Page"
     },
     {
-        id: "",
+        id: "SHN00294",
         name: "Amanam Israel",
         role: "Frontend Development",
         image: "https://res.cloudinary.com/cloud-y/image/upload/v1566514767/DSC_0921-01_1_db7yjw.jpg",
         cvlink: "",
-        contribution: "Led UI design"
+        contribution: "Led UI design and part of front end design "
     },
     {
-        id: "ADD MEMBER CODE HERE",
+        id: "SHN00744",
         name: "Adedayo Adeniyi",
         role: "Backend Development",
-        image: "https://res.cloudinary.com/daydah/image/upload/c_scale,h_219/v1566599174/HNG/r2ytsvsiytvdqcgolcxi.jpg"
+        image: "https://res.cloudinary.com/daydah/image/upload/c_scale,h_219/v1566599174/HNG/r2ytsvsiytvdqcgolcxi.jpg",
+        cvlink: "",
+        contribution: "Backend design of dashboard and part of the payment page"
+    },
+    {
+        id: "SHN01275",
+        name: "Omodele Olumide",
+        role: "Frontend Development",
+        image: "https://res.cloudinary.com/valchiz/image/upload/v1566588292/IMG_20190823_202419_vpx7pc.jpg",
+        cvlink: "https://yemmighto.github.io/valchizcv/",
+        contribution: "Am a beginner in the mobile development team and also a graphics design, help in designing the graphics sample "
     },
     {
         id: "SHN00434",
@@ -108,7 +118,7 @@ const members = [{
         role: "Front End Development",
         image: "https://res.cloudinary.com/kamar-folarin/image/upload/v1567663825/Snapchat-219832721_dftqui.jpg",
         cvlink: "https://kamar-folarin.github.io/HNG-task-2/",
-        contribution: "learnt how the front end developers write the code",
+        contribution: "learnt how the front end developers write the code"
     },
     {
         id: "SHN00630",
@@ -140,7 +150,7 @@ const members = [{
         role: "Front End Development",
         image: "https://res.cloudinary.com/onengiyeamadi/image/upload/v1567170969/HNG%20StartNG/onengiyeamadi99_cspm7c.jpg",
         cvlink: "https://onengiyeamadi99.github.io/startNG_task1/",
-        contribution: "Aided in the selection of project idea.",
+        contribution: "Aided in the selection of project idea."
     },
     {
         id: "SHN00990",
@@ -156,7 +166,7 @@ const members = [{
         role: "Front End Development",
         image: "https://res.cloudinary.com/dy1e3fwek/image/upload/v1566642128/IMG_20190504_104748_7_1_eib496.jpg",
         cvlink: "https://pensive-swirles-39a968.netlify.com",
-        contribution: "I helped in creating social media handles for the team",
+        contribution: "I helped in creating social media handles for the team"
     },
     {
         id: "SHN00338",
@@ -172,7 +182,7 @@ const members = [{
         role: "Front End Development",
         image: "https://res.cloudinary.com/basifrank/image/upload/v1566554656/MyDP_r0t0p6.jpg",
         cvlink: "https://basifrank.github.io/host-on-github/",
-        contribution: "I am part of the project team headed by Buchi where i developed the required performance data of the team's project and  made contributions to the project documentation.",
+        contribution: "I am part of the project team headed by Buchi where i developed the required performance data of the team's project and  made contributions to the project documentation."
     },
 
 
@@ -193,6 +203,14 @@ const members = [{
         contribution: "Worked on the mobile app development. Startup screen for the app and the login page."
     },
     {
+        id: "SHN01224",
+        name: "Isioma Andrew",
+        role: "Frontend development",
+        image: "https://res.cloudinary.com/issyyan/image/upload/v1566652966/8590EE1D-187C-4B6E-95FB-73A5C7A8FD40_oqey4g.png",
+        cvlink: "https://issyya.github.io/isioma-contactform/",
+        contribution: "I've majorly contributed towards feedback on the team as regards front-end and design. "
+    },
+    {
         id: "SHN01545",
         name: "Adelakun Sulaimon Kolawole",
         role: "Machine Learning",
@@ -208,18 +226,8 @@ const members = [{
         cvlink: "https://kennycyphers1.github.io/kennyhobz",
         contribution: "Participated in the team Project as Front-End, Designed the Projects and Projects stage pages using Accordions and Tabs respectively."
     },
-    {
-        id: "ADD MEMBER CODE HERE",
-        name: "Mathias Ugbe",
-        role: "Backend Development",
-        image: "https://res.cloudinary.com/mathy/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1566765989/Mathy.jpg"
-    },
-    {
-        id: "ADD MEMBER CODE HERE",
-        name: "Opabode Olajide",
-        role: "Frontend Development",
-        image: "https://res.cloudinary.com/dqd7usqep/image/upload/v1566568073/selfie_lj37zf.jpg"
-    },
+
+
     {
         id: "SHN01156",
         name: "Obieri Chiamaka Grace",
@@ -239,18 +247,6 @@ const members = [{
     },
 
     {
-        id: "ADD MEMBER CODE HERE",
-        name: "Sarah Anueyiagu",
-        role: "Backend Development",
-        image: "https://res.cloudinary.com/sarahnmachi/image/upload/v1566587884/IMG-20181230-WA0010_ujyihv.jpg"
-    },
-    {
-        id: "ADD MEMBER CODE HERE",
-        name: "Oser Raphaels",
-        role: "Backend Development",
-        image: "https://res.cloudinary.com/onesoaringeagle/image/upload/v1567187997/Fresh_M_udt8qi.jpg"
-    },
-    {
         id: "SHN0860",
         name: "Victor Ezeh",
         role: "Frontend Development",
@@ -268,10 +264,12 @@ const members = [{
     },
 
     {
-        id: "ADD MEMBER CODE HERE",
+        id: "SHN00754",
         name: "Sandra Mohammed",
-        role: "Digital Marketing",
-        image: "https://res.cloudinary.com/sandyahmed/image/upload/v1566678987/profile_pix_laewrv.jpg"
+        role: "Research ",
+        image: "https://res.cloudinary.com/sandyahmed/image/upload/v1566678987/profile_pix_laewrv.jpg",
+        cvlink: "file:///C:/Users/Sandra/Desktop/SANDYAHMMED/index.html.html",
+        contribution: ""
     },
     {
         id: "SHN01917",
@@ -290,23 +288,14 @@ const members = [{
         image: "https://res.cloudinary.com/opystar/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1567196545/tmp_13376_dan1i0.jpg"
     },
     {
-        id: "ADD MEMBER CODE HERE",
-        name: "James Dayo",
-        role: "Frontend Development",
-        image: "https://res.cloudinary.com/diubyoojw/image/upload/v1554460404/IMG_20181028_100531.jpg"
+        id: "SHN01480",
+        name: "Ismail Musa Kallah",
+        role: "Frontend Design",
+        cvlink: "www.musakallah.github.io",
+        image: "https://res.cloudinary.com/musakallah/image/upload/v1566495144/IMG_20190604_084921_1_kvhrof.jpg",
+        contribution: "Contribute in the homepage design particularly the Login and New User forms."
     },
-    {
-        id: "ADD MEMBER CODE HERE",
-        name: "Ibrahim Kadiri",
-        role: "UI/UX",
-        image: "https://res.cloudinary.com/dev999/image/upload/v1567196081/IMG-20181227-WA0001_sib2ii.jpg"
-    },
-    {
-        id: "ADD MEMBER CODE HERE",
-        name: "Chukwudi Nnamani",
-        role: "Mobile Apps Development",
-        image: "https://res.cloudinary.com/dgl0pg36e/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1567202002/IMG_20171230_111335_dowghy.jpg"
-    },
+
     {
         id: "SHN01549",
         name: "Jimoh Lukman Adeyemi",
@@ -332,12 +321,7 @@ const members = [{
         contribution: "Testing and commenting i work on meet the team page image scroll",
     },
 
-    {
-        id: "ADD MEMBER CODE HERE",
-        name: "Ndifreke Edem",
-        role: "Digital Marketing",
-        image: "https://res.cloudinary.com/sweetim/image/upload/v1566577735/start.ng/passport_2_pmxyzp.jpg"
-    },
+
     {
         id: "SHN00831",
         name: "Emediong Okon",
@@ -380,7 +364,7 @@ const members = [{
         contribution: "Designed the login authentication and signup page, supported the team lead to ensure the success of the project"
     },
     {
-        id: "ADD MEMBER CODE HERE",
+        id: "",
         name: "Ella Oku",
         role: "Mobile Apps Development",
         image: "https://res.cloudinary.com/ellaoku/image/upload/v1566813077/ella_i0ecmr.jpg",
@@ -396,13 +380,15 @@ const members = [{
         contribution: "As much as I was really interested in contributing to the team project, the task was beyond my skill/capacity. However, I ensured I completed forms and other related things when asked to do so during the course of the project."
     },
     {
-        id: "ADD MEMBER CODE HERE",
-        name: "Kingsley Imouloghmhe",
+        id: "SHN00819",
+        name: "Ekeoma, Emmanuel K.",
         role: "Frontend Development",
-        image: "https://res.cloudinary.com/osire/image/upload/v1566651542/My%20images/Cv_photo_o3obo2.jpg"
+        image: "https://res.cloudinary.com/klecci/image/upload/v1566830412/byzc88rzq5m8eupczepn.jpg",
+        cvlink: "https://klecci.github.io/eek/",
+        contribution: "It was an eye opening, I made a reasonable effort and attempt to the success, i even came up with something as regards the task that was given to my unit but in the end a better and more precise design was chosen. "
     },
     {
-        id: "ADD MEMBER CODE HERE",
+        id: "SHN01159",
         name: "Osayi-Ekekhor Abraham",
         role: "Backend Development",
         image: "https://res.cloudinary.com/darjhurtd/image/upload/v1566585356/Abraham_Ekekhor_1170163_1548397988814206_788327145_n_vdas0l.jpg",
@@ -418,10 +404,12 @@ const members = [{
         contribution: "Worked on theandroid app development."
     },
     {
-        id: "ADD MEMBER CODE HERE",
+        id: "SHN00240",
         name: "Adeniyi Bella",
         role: "Frontend Development",
-        image: "https://res.cloudinary.com/beladouglas/image/upload/v1566507320/Adeniyi%20Bella.jpg"
+        image: "https://res.cloudinary.com/beladouglas/image/upload/v1566507320/Adeniyi%20Bella.jpg",
+        cvlink: "https://beladouglas.github.io/HNG-task-4-submission/",
+        contribution: ""
     },
     {
         id: "SHN00308 ",
@@ -466,10 +454,14 @@ const members = [{
 
     },
     {
-        id: "ADD MEMBER CODE HERE",
+        id: "SHN00034",
         name: "Daniel Oladimeji",
         role: "Frontend Development",
-        image: "https://res.cloudinary.com/dannydims/image/upload/v1566597700/daniel_oce1uh.jpg"
+        image: "https://res.cloudinary.com/dannydims/image/upload/v1566597700/daniel_oce1uh.jpg",
+        cvlink: "https://devdimmy.github.io/hng-project/daniel.html",
+        contribution: ""
+
+
     },
     {
         id: "SHN00192",
@@ -495,18 +487,8 @@ const members = [{
         cvlink: "https://okikijoshua.github.io/startdotng/",
         contribution: "Just some code clean that i did some pull request for, but i doubt there were merged I am on the frontend subteam though",
     },
-    {
-        id: "ADD MEMBER CODE HERE",
-        name: "Theresa Anyadike",
-        role: "Machine Learning",
-        image: "https://res.cloudinary.com/nenatesz/image/upload/v1566621623/IMG-20190809-WA0027_1566201371506_kwqhbc.jpg"
-    },
-    {
-        id: "ADD MEMBER CODE HERE",
-        name: "Okenwa Franklyn",
-        role: "Mobile Apps Development",
-        image: "https://res.cloudinary.com/franklyno/image/upload/v1566672417/franklyn_s7qnb5.jpg"
-    }
+
+
 ]
 
 
