@@ -1,34 +1,38 @@
-body {
-    display: flex;
-    flex-flow: column;
+*{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    color: #3F3D56;
+    font-size: 18px;
     font-family: 'Source Sans Pro', Helvetica;
 }
-
-.logo-section img {
-    width: 130px;
-    height: 55px;
-    margin-left: 200px;
-    margin-top: 50px;
-    padding-left: 20px;
+/**** HEADER STYLES ****/
+.container{
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid; */
 }
-
-.logo img {
-    width: 130px;
-    height: 55px;
-    margin-left: 200px;
-    margin-top: 50px;
-    padding-left: 20px;
-}
-
 .header {
     height: 100px;
     background: white;
-    padding: 0 20px;
+    /* padding: 0 20px; */
     color: #fff;
 }
-
+.logo{
+    float:left;
+}
+.logo img {
+    width: 130px;
+    /* height: 55px; */
+    margin-top: 29px;
+    padding-left: 20px;
+}
 .menu {
     float: right;
     line-height: 100px;
@@ -36,18 +40,37 @@ body {
 
 .menu a {
     color: #3F3D56;
-    ;
-    text-transform: uppercase;
     text-decoration: none;
     padding: 0 10px;
     font-size: 20px;
 }
-
-.logo {
-    line-height: 100px;
-    float: left;
+.menu a:hover{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.logo-section img {
+    width: 130px;
+    height: 55px;
+    margin-left: 200px;
+    margin-top: 50px;
+    padding-left: 20px;
+}
+.login-btn {
+    color: #FFF;
+    background-color: #6666ff;
+    border-radius: 20px;
+    width: 120px;
+    height: 35px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
 }
 
+.login-btn:hover, .btn-pay:hover, .btn:hover{
+    box-shadow: 3px 3px 0 #6060e7;
+    transform: translate(-3px,-3px);
+    outline: none;
+}
 .btn {
     color: #FFF;
     background-color: #6666ff;
@@ -60,7 +83,98 @@ body {
     cursor: pointer;
     margin-bottom: 50px;
 }
+/*  HEADER */
 
+/* MAIN_LANDING */
+
+.landing {
+    margin-top: 150px;
+    padding-top: 30px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.justify-between{
+    justify-content: space-between
+}
+.col-4, .col-9, .col-3{
+    flex-direction: column;
+    display: inline-flex;
+}
+.mt__3{ margin-top: 3rem; }
+.col-4{
+    width: 40%;
+}
+.col-5{
+    width: 50%;
+}
+.col-9{
+    width:70%;
+}
+.col-3{
+    width: 25%;
+}
+.landing-text {
+    padding: 0 20px;
+}
+.landing h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.landing p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align:justify;
+}
+.landing-image {
+    width: 100%;
+    height: 300px;
+    background-image: url('./img/tax payment image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.payments{
+    background: #2E2D3F;
+    color: #fff;
+    padding: 2rem 0;
+    margin: 2rem 0;
+}
+.card-payment{
+    margin-top: 2rem;
+}
+.card-payment h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.card-payment p{
+    margin-bottom: 5px;
+}
+.card__payment-bg{
+    width: 100%;
+    height: 230px;
+    background-image: url('./img/credit card payment image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fund__payment-bg{
+    width: 100%;
+    height: 230px;
+    background-image: url('img/fund project.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.panel{
+    text-align: center;
+    padding: 1rem 0;
+}
+.btn-start{
+    margin: 0;
+}
 .btn-pay {
     color: #FFF;
     background-color: #6666ff;
@@ -72,59 +186,15 @@ body {
     cursor: pointer;
 }
 
-.login-btn {
-    color: #FFF;
-    background-color: #6666ff;
-    border-radius: 20px;
-    width: 120px;
-    height: 35px;
-    border: none;
-    font-size: 18px;
-    cursor: pointer;
-}
-
-.landing {
-    height: 50vh;
-    margin-top: 150px;
-    padding-top: 30px;
-    display: inline-block;
-}
-
-.landing h1 {
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 50px;
-    margin: 0px;
-}
-
-.landing p {
-    font-size: 18px;
-}
-
-.landing-text {
-    width: 40%;
-    margin-left: 200px;
-    padding-left: 20px;
-    float: left;
-}
-
-.landing-image {
-    width: 30%;
-    float: right;
-    padding-top: 20px;
-    margin-right: 150px;
-    margin-bottom: 50px;
-}
-
-.info {
+/*.info {
     background: #00091a;
     color: #FFF;
     opacity: 0.8;
     height: 620px;
     display: block;
     margin-top: 50px;
-}
-
+}*/
+/* 
 .cc-pay,
 .projects {
     width: 35%;
@@ -137,9 +207,9 @@ body {
     width: 30%;
     float: right;
     margin-top: -180px;
-}
+} */
 
-.project-image {
+/* .project-image {
     width: 30%;
     float: right;
     margin-top: -150px;
@@ -151,26 +221,41 @@ body {
 
 .fund-project {
     padding-top: 50px;
-}
+} */
 
-.midpage {
+/* .midpage {
     margin: auto;
     margin-top: 25px;
     margin-bottom: 25px;
-}
-
+} */
+/* FOOTER */
 footer {
-    background: #00091a;
+    background: #2E2D3F;
     color: #FFF;
-    opacity: 0.8;
-    height: 40vh;
-    margin-top: 200px;
+    margin-top: 2rem;
+    padding: 2rem;
+}
+.footer-logo img{
+    width: 100px;
+}
+.about,
+.contact,
+.news,
+.social p{
+    font-size: 15px;
+    padding: 0 1rem;
+    /* width: 20%;
+    float: left; */
+    /* padding: 20px; */
+}
+.copyright{
+    text-align: center;
 }
 
-.footer-contents {
+/* .footer-contents {
     margin-left: 200px;
     width: 100%;
-}
+} */
 
 .sm a {
     color: #FFF;
@@ -180,42 +265,16 @@ footer {
     color: #6666ff;
 }
 
-.about,
-.contact,
-.news,
-.social {
-    width: 20%;
-    float: left;
-    padding: 20px;
-}
-
-.about h4 {
+.about h4, .contact h4, .news h4,.social h4, .contact a {
     color: #6666ff;
 }
-
-.contact h4 {
-    color: #6666ff;
-}
-
-.news h4 {
-    color: #6666ff;
-}
-
-.social h4 {
-    color: #6666ff;
-}
-
-.contact a {
-    color: #6666ff;
-}
-
 .contact a:hover {
     color: #FFF;
 }
 
-.copyright {
+/* .copyright {
     float: left;
-}
+} */
 
 #go-btn {
     color: #FFF;
@@ -301,8 +360,7 @@ footer {
     padding: 1rem 0.5rem 0.5rem 1rem;
 }
 
-.about-section h2,
-h3 {
+.about-section h2, .about-section h3 {
     text-align: center;
 }
 
