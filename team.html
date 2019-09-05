@@ -46,18 +46,18 @@
             <a href="contact.html">Contact Us</a>
             <a href="team.html">Team</a>
             <a href="about.html">About Us</a>
-            <a href="signin.html" id="menu-highlight"><button class="login-btn" type="button">Login</button></a>
+            <a href="signin.html" id="menu-highlight"><button class="login-btn" type="button">Login/Signup</button></a>
             <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
     </div>
 
     <script>
         function myFunction() {
-            var x = document.getElementById("myheader");
-            if (x.className === "header") {
-                x.className += " responsive";
+            var head = document.getElementById("myheader");
+            if (head.className === "header") {
+                head.className += " responsive";
             } else {
-                x.className = "header";
+                head.className = "header";
             }
         }
     </script>

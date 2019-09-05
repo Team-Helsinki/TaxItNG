@@ -324,12 +324,12 @@ const members = [{
         contribution: "Created The User Story Document"
     },
     {
-        id: "",
-        name: "Jimoh Waliyullah",
-        role: "Frontend Development",
-        cvlink: "",
-        contribution: "",
-        image: "https://res.cloudinary.com/dtb97frbc/image/upload/v1566979104/me_gqxngs.jpg"
+        id: "SHN01810",
+        name: "Agbo, Daniel Onuoha",
+        role: "Front End Development",
+        image: "https://res.cloudinary.com/code-shield/image/upload/v1566569910/IMG_20190410_180856_1_owlclt.jpg",
+        cvlink: "https://dannytex.github.io/TaskHNG.github.io/",
+        contribution: "Testing and commenting i work on meet the team page image scroll",
     },
 
     {
@@ -488,10 +488,12 @@ const members = [{
         image: "https://res.cloudinary.com/oluwamayowaf/image/upload/v1567425691/Taxitng/Screenshot_20190831-172915_vwq9yt.png"
     },
     {
-        id: "ADD MEMBER CODE HERE",
-        name: "Okiki Joshua Mayowa",
-        role: "Frontend Development",
-        image: "https://res.cloudinary.com/ddu0ww15f/image/upload/v1567279574/IMG_4094_vhmqm2.jpg"
+        id: "snh00448",
+        name: "Omikunle Okiki Joshua",
+        role: "Front End Development",
+        image: "https://res.cloudinary.com/ddu0ww15f/image/upload/c_scale,h_651/v1566596837/IMG_4092_grrjlv.jpg",
+        cvlink: "https://okikijoshua.github.io/startdotng/",
+        contribution: "Just some code clean that i did some pull request for, but i doubt there were merged I am on the frontend subteam though",
     },
     {
         id: "ADD MEMBER CODE HERE",
