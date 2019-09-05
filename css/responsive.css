@@ -1,0 +1,24 @@
+
+@media  (max-width: 575px) {
+  .container{
+      width: 90%;
+  }
+  .row{
+      display: flex;
+  }
+ .col-9, .col-3, .col-4, .col-5{
+      display: flex;
+      width:100%;
+      margin-bottom: 1rem;
+  }
+  .col-4.order-1, .col-3.order-1{
+      order: 1;
+  }
+  .col-5.order-2, .col-9.order-2{
+      order: 2;
+  }
+  .landing h1{
+      font-size: 26px;
+      margin-top: 10px;
+  }
+}
