@@ -16,21 +16,31 @@
 </head>
 
 <body onload="generateTeam()">
-    <nav>
-        <div class="header">
-            <div class="logo">
-                <a href="home.html"><img src="https://res.cloudinary.com/dcczd9zz5/image/upload/v1567174130/ff_nbwkbr.png"></a>
-            </div>
-            <ul class="menu">
-                <a href="#">Home</a>
-                <a href="#">Projects</a>
-                <a href="#">Contact Us</a>
-                <a href="team.html">Team</a>
-                <a href="about.html">About Us</a>
-                <a href="signin.html" id="menu-highlight"><button class="login-btn" type="button">Login</button></a>
-            </ul>
+    <div class="header" id="myheader">
+        <a href="home.html" class="logo"><img src="https://res.cloudinary.com/dcczd9zz5/image/upload/v1567174130/ff_nbwkbr.png"></a>
+        <div class="header-right">
+
+            <a href="index.html">Home</a>
+            <a href="project.html">Projects</a>
+            <a href="payment.html">Pay Tax</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="team.html">Team</a>
+            <a href="about.html">About Us</a>
+            <a href="signin.html" id="menu-highlight"><button class="login-btn" type="button">Login</button></a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
-    </nav>
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myheader");
+            if (x.className === "header") {
+                x.className += " responsive";
+            } else {
+                x.className = "header";
+            }
+        }
+    </script>
     <div class="about-section">
         <h2>About Taxit.NG</h2>
         <p> It's a given that governmental performance plays a key role in the willingness of the citizens to continue fulfilling their obligations to the state, one of which includes paying taxes. But when there's a disconnect between service delivery on
@@ -86,54 +96,65 @@
 </body>
 
 <footer>
-    <div class="logo">
-        <a href="home.html"><img src="https://res.cloudinary.com/dcczd9zz5/image/upload/v1567174130/ff_nbwkbr.png"></a>
+    <div class="footer-logo">
+        <a href="index.html">
+            <img src="https://res.cloudinary.com/dcczd9zz5/image/upload/v1567174130/ff_nbwkbr.png">
+        </a>
     </div>
-    <div class="footer-contents">
-        <div class="about">
-
-
-            <h4>About Us</h4>
-            <p>TaxIt.NG is a financial non-governmental organisation built by a team of young interns and change agents to solve the persisting problem of tax collection and poor accountable utilisation of tax revenue to create social development and benefits
-                to taxpayers... <a href="">More</a> </p>
-        </div>
-        <div class="news">
-            <h4>Newsletter</h4>
-            <p>Stay updated with our latest news & products</p>
-            <div id="embed-signup">
-                <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative">
-                    <div>
-                        <input name="EMAIL" placeholder="Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '" required="" type="email">
-                        <button id="go-btn">Go</button>
-                    </div>
-
-                </form>
+    <div class="row mt__3">
+        <div class="col-4">
+            <div class="about">
+                <h4>About Us</h4>
+                <p>TaxIt.NG is a financial non-governmental organisation built by a team of young interns and change agents to solve the persisting problem of tax collection and poor accountable utilisation of tax revenue to create social development and
+                    benefits to taxpayers... <a href="">More</a> </p>
             </div>
         </div>
-        <div class="contact">
-            <h4>Contact Us</h4>
+        <div class="col-3">
+            <div class="news">
+                <h4>Newsletter</h4>
+                <p>Stay updated with our latest news & products</p>
+                <div id="embed-signup">
+                    <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative">
+                        <div>
+                            <input name="EMAIL" placeholder="Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '" required="" type="email">
+                            <button id="go-btn">Go</button>
+                        </div>
 
-            <p>3, Birrel Avenue <br> Yaba, Lagos <br>
-                <a href="mailto:info@taxit.ng">info@taxit.ng</a> <br> 01-2345678 <br> 08489102638, 8920271538. <br>
-            </p>
-
-        </div>
-        <div class="social">
-            <h4>Follow Us</h4>
-            <div class="sm">
-                <a href="#"><i class="fab fa-twitter"></i></a> &nbsp &nbsp
-                <a href="#"><i class="fab fa-facebook-square"></i></a> &nbsp &nbsp
-                <a href="#"><i class="fab fa-instagram"></i></a> &nbsp &nbsp
-                <a href="#"><i class="fab fa-whatsapp"></i></a> &nbsp &nbsp
-                <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </form>
+                </div>
             </div>
         </div>
+        <div class="col-3">
+            <div class="contact">
+                <h4>Contact Us</h4>
+
+                <p>3, Birrel Avenue <br> Yaba, Lagos <br>
+                    <a href="mailto:info@taxit.ng">info@taxit.ng</a> <br> 01-2345678 <br> 08489102638, 8920271538. <br>
+                </p>
+
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="social">
+                <h4>Follow Us</h4>
+                <div class="sm">
+                    <a href="#"><i class="fab fa-twitter"></i></a> &nbsp &nbsp
+                    <a href="#"><i class="fab fa-facebook-square"></i></a> &nbsp &nbsp
+                    <a href="#"><i class="fab fa-instagram"></i></a> &nbsp &nbsp
+                    <a href="#"><i class="fab fa-whatsapp"></i></a> &nbsp &nbsp
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class=" mt__3">
         <div class="copyright">
             <p>
                 Copyright &copy;
                 <script>
                     document.write(new Date().getFullYear());
-                </script> &nbsp &nbsp All rights reserved | Team Helsinki </p>
+                </script> &nbsp &nbsp All rights reserved | Team Helsinki
+            </p>
         </div>
     </div>
 </footer>

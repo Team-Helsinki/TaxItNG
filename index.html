@@ -5,12 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+
     <!-- <script src="https://kit.fontawesome.com/f618f790f8.js"></script> -->
     <!-- font awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-        <!-- google fonts -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato|Raleway|Source+Sans+Pro&display=swap" rel="stylesheet">
     <!-- stylesheets -->
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -29,7 +28,7 @@
         <nav>
 
         </div> 
-    -->
+    
     <header>
         <div class="container">
             <div class="header">
@@ -50,7 +49,32 @@
                 </ul>
             </div>
         </div>
-    </header>
+    </header>-->
+    <div class="header" id="myheader">
+        <a href="home.html" class="logo"><img src="https://res.cloudinary.com/dcczd9zz5/image/upload/v1567174130/ff_nbwkbr.png"></a>
+        <div class="header-right">
+
+            <a href="index.html">Home</a>
+            <a href="project.html">Projects</a>
+            <a href="payment.html">Pay Tax</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="team.html">Team</a>
+            <a href="about.html">About Us</a>
+            <a href="signin.html" id="menu-highlight"><button class="login-btn" type="button">Login</button></a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myheader");
+            if (x.className === "header") {
+                x.className += " responsive";
+            } else {
+                x.className = "header";
+            }
+        }
+    </script>
     <main>
         <!-- landing banner -->
         <div class="container">
@@ -60,14 +84,10 @@
                         <div class="landing-text">
                             <h1>Tax Payment System</h1>
                             <p>
-                                Taxpayers feel cheated, neglected, and even worst still suffers
-                                multiple taxation due to lack of proper documentation and corruption.
+                                Taxpayers feel cheated, neglected, and even worst still suffers multiple taxation due to lack of proper documentation and corruption.
                             </p>
                             <p>
-                                Our goal at TaxIt.NG is to make tax payment seamless and transparent using technology to create
-                                transparent channel
-                                through which citizens can hold their government accountable, and  have the
-                                capacity to choose what projects their taxes should go into
+                                Our goal at TaxIt.NG is to make tax payment seamless and transparent using technology to create transparent channel through which citizens can hold their government accountable, and have the capacity to choose what projects their taxes should go into
                             </p>
                             <p>
                                 Citizens will be able to effectively track their preferred
@@ -82,9 +102,9 @@
                         </div>
                     </div>
                 </div>
-                
-        
-                
+
+
+
             </section>
             <!-- ./ landing -->
         </div>
@@ -95,13 +115,11 @@
                         <div class="card-payment">
                             <h3>Credit Card Payments</h3>
                             <p>
-                                Pay your tax and utility bills virtually using your credit card at one spot and maximize cash
-                                flow.
+                                Pay your tax and utility bills virtually using your credit card at one spot and maximize cash flow.
                             </p>
                             <p>No need to write and send paper checks.</p>
                             <p>
-                                Easily schedule and track future & recurring payments. Send payments with your credit card,
-                                even where credit cards are not accepted. 
+                                Easily schedule and track future & recurring payments. Send payments with your credit card, even where credit cards are not accepted.
                             </p>
                         </div>
                     </div>
@@ -114,17 +132,13 @@
                         <div class="card-payment">
                             <h3>Fund Projects</h3>
                             <p>
-                                Pay your tax and utility bills virtually using your credit card at one spot and maximize cash
-                                flow.
+                                Pay your tax and utility bills virtually using your credit card at one spot and maximize cash flow.
                             </p>
                             <p>
-                                You can now fund and track governmental projects from the comfort of your home
-                                and watch it grow. Share your intrested projects with friends and family
-                                and help impact the nation positively.
+                                You can now fund and track governmental projects from the comfort of your home and watch it grow. Share your intrested projects with friends and family and help impact the nation positively.
                             </p>
                             <p>
-                                We also include hand pick private
-                                sector busineses that you can partner from the comfort of you home.
+                                We also include hand pick private sector busineses that you can partner from the comfort of you home.
                             </p>
                         </div>
                     </div>
@@ -149,11 +163,8 @@
             <div class="col-4">
                 <div class="about">
                     <h4>About Us</h4>
-                    <p>TaxIt.NG is a financial non-governmental organisation built by a team of young interns
-                        and change agents to solve the persisting
-                        problem of tax collection and poor accountable
-                        utilisation of tax revenue to create social
-                        development and benefits to taxpayers... <a href="">More</a> </p>
+                    <p>TaxIt.NG is a financial non-governmental organisation built by a team of young interns and change agents to solve the persisting problem of tax collection and poor accountable utilisation of tax revenue to create social development
+                        and benefits to taxpayers... <a href="">More</a> </p>
                 </div>
             </div>
             <div class="col-3">
@@ -161,15 +172,12 @@
                     <h4>Newsletter</h4>
                     <p>Stay updated with our latest news & products</p>
                     <div id="embed-signup">
-                        <form target="_blank"
-                            action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-                            method="get" class="subscribe_form relative">
+                        <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative">
                             <div>
-                                <input name="EMAIL" placeholder="Email Address" onfocus="this.placeholder = ''"
-                                    onblur="this.placeholder = 'Email Address '" required="" type="email">
+                                <input name="EMAIL" placeholder="Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '" required="" type="email">
                                 <button id="go-btn">Go</button>
                             </div>
-    
+
                         </form>
                     </div>
                 </div>
@@ -177,14 +185,11 @@
             <div class="col-3">
                 <div class="contact">
                     <h4>Contact Us</h4>
-    
-                    <p>3, Birrel Avenue <br>
-                        Yaba, Lagos <br>
-                        <a href="mailto:info@taxit.ng">info@taxit.ng</a> <br>
-                        01-2345678 <br>
-                        08489102638, 8920271538. <br>
+
+                    <p>3, Birrel Avenue <br> Yaba, Lagos <br>
+                        <a href="mailto:info@taxit.ng">info@taxit.ng</a> <br> 01-2345678 <br> 08489102638, 8920271538. <br>
                     </p>
-    
+
                 </div>
             </div>
             <div class="col-3">
@@ -206,7 +211,7 @@
                     Copyright &copy;
                     <script>
                         document.write(new Date().getFullYear());
-                    </script> &nbsp &nbsp All rights reserved | Team Helsinki 
+                    </script> &nbsp &nbsp All rights reserved | Team Helsinki
                 </p>
             </div>
         </div>
