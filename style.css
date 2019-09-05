@@ -206,13 +206,8 @@ html, body {
 .card-image {
     width: 30%;
     float: right;
-<<<<<<< HEAD
     margin-top: -180px;
 } */
-=======
-    margin-top: -180px; 
-}
->>>>>>> a7e7b353579dc69e73f1d53f812151a0d27f76f1
 
 /* .project-image {
     width: 30%;
@@ -228,12 +223,7 @@ html, body {
     padding-top: 50px;
 } */
 
-<<<<<<< HEAD
 /* .midpage {
-=======
-
-.midpage{
->>>>>>> a7e7b353579dc69e73f1d53f812151a0d27f76f1
     margin: auto;
     margin-top: 25px;
     margin-bottom: 25px;
