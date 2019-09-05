@@ -1,0 +1,137 @@
+* {
+	margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  display: 100%;
+}
+
+.form__heading { 
+  text-align:left; 
+  color:#ffffff; 
+  margin-left: 15px;
+  margin-bottom: 20px;
+} 
+
+.container .box { 
+  width:80%; 
+  margin:auto; 
+  display:table; 
+} 
+
+.container .box .box-row { 
+  display:table-row; 
+} 
+
+.container .box .box-cell { 
+  display:table-cell; 
+  width:20%; 
+  padding:10px; 
+}
+
+.container .box .box-cell.box1 { 
+  color:#ffffff; 
+  text-align:justify; 
+} 
+
+.container .box .box-cell.box2 { 
+  text-align:justify;
+  color:#ffffff; 
+} 
+
+.form-inline input, select {
+  border: 1px solid #000000;
+  padding: 10px;
+  margin: 5px;
+}
+
+.form-inline label {
+ margin: 5px;
+}
+
+.form-inline select {
+  border: 1px solid #000000;
+  padding: 10px;
+  margin: 5px;
+  width: 190px;
+}
+
+.text-area label {
+  margin-bottom: 10px;
+  padding: 10px;
+  color: #ffffff;
+  text-align:justify;
+}
+
+textarea {
+  padding: 10px;
+  margin: 10px;
+}
+
+.btn button {
+  border: none;
+  box-shadow: none;
+  padding: 10px;
+  margin: 10px;
+  background-color: #252258;
+  color: #ffffff;
+  width: 100px;
+}
+.input__textarea{
+  width: 95%;
+  height: 150px;
+}
+
+@media (min-width: 768px) and (max-width: 991px)  {
+  .container .box{
+    width: 100%;
+  }
+  .btn button {
+    width: 95%;
+  }
+  .container .box .box-row { 
+    display: block; 
+  } 
+  
+  .container .box .box-cell { 
+    display:block; 
+    width:100%; 
+    padding:10px; 
+  }
+  .form-inline input, .form-inline select{
+    width: 100%;
+  }
+  .container .box .box-cell.box1 { 
+    color:#ffffff; 
+    text-align:justify; 
+  } 
+}
+@media (max-width: 575px)  {
+  .container .box{
+    width: 100%;
+  }
+  .btn button {
+    width: 95%;
+  }
+  .container .box .box-row { 
+    display: block; 
+  } 
+  
+  .container .box .box-cell { 
+    display:block; 
+    width:100%; 
+    padding:10px; 
+  }
+  .form-inline input, .form-inline select{
+    width: 100%;
+  }
+  .container .box .box-cell.box1 { 
+    color:#ffffff; 
+    text-align:justify; 
+  } 
+  
+}
+

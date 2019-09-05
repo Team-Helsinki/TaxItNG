@@ -133,7 +133,7 @@ html, body {
 .landing-image {
     width: 100%;
     height: 300px;
-    background-image: url('./img/tax payment image.png');
+    background-image: url('./assets/img/tax payments image.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -157,14 +157,14 @@ html, body {
 .card__payment-bg{
     width: 100%;
     height: 230px;
-    background-image: url('./img/credit card payment image.png');
+    background-image: url('./assets/img/credit card payment image.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 .fund__payment-bg{
     width: 100%;
     height: 230px;
-    background-image: url('img/fund project.png');
+    background-image: url('./assets/img/fund project.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
