@@ -4,39 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="TaxItNG is a platform that helps make it  easy for Nigerians to calculate and pay their taxes. ">
-	<meta name="keywords" content="Tax, TaxIt.NG, citizens firs, VAT, Witholding Tax, Nigeria Tax, taxpayers in nigeria, government">
+
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/f618f790f8.js"></script>
     <script src="js/team.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="teamstyle.css">
+    <link rel="stylesheet" type="text/css" href="footerstyle.css">
     <script src="https://kit.fontawesome.com/f618f790f8.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato|Raleway|Source+Sans+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <title>TaxIt.ng || About</title>
+    <link rel="shortcut icon" href="https://res.cloudinary.com/oluwamayowaf/image/upload/v1567467076/Logo_TaxitNg_favicon_copy_aey0cu.png" type="image/x-icon">
+    <title>TaxIt.ng || Team</title>
 </head>
 
 <body onload="generateTeam()">
-    <nav>
-        <div class="header">
-            <div class="logo">
+    <div class="header" id="myheader">
+        <a href="home.html" class="logo"><img src="https://res.cloudinary.com/dcczd9zz5/image/upload/v1567174130/ff_nbwkbr.png"></a>
+        <div class="header-right">
 
-                <a href="home.html"><img src="https://res.cloudinary.com/dapowuyi/image/upload/v1567523863/Taxit_s4dqwy.png"></a>
-            </div>
-            <ul class="menu">
-                <a href="index.html">Home</a>
-                <a href="project.html">Projects</a>
-                <a href="payment.html">Pay Tax</a>
-                <a href="contact.html">Contact Us</a>
-                <a href="team.html" class="active">Team</a>
-                <a href="about.html">About Us</a>
-                <a href="signin.html" id="menu-highlight"><button class="login-btn" type="button">Login</button></a>
-
-            </ul>
-
+            <a href="index.html">Home</a>
+            <a href="project.html">Projects</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="team.html">Team</a>
+            <a href="about.html">About Us</a>
+            <a href="signin.html" id="menu-highlight"><button class="login-btn" type="button">Login</button></a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
-    </nav>
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myheader");
+            if (x.className === "header") {
+                x.className += " responsive";
+            } else {
+                x.className = "header";
+            }
+        }
+    </script>
 
     <div class="team-image"><img src="https://res.cloudinary.com/dapowuyi/image/upload/c_scale,h_299,w_412/v1567508266/Our_team_sldcvk.png" alt=""></div>
 
@@ -47,88 +55,23 @@
 
 
     </div>
+    <div id="team-members"></div>
 
-    <!--<div id="team-members"></div>
-     <div class="buttons">
-        <button class="btn">previous page</button>
-        <button class="btn">Next page</button>
-    </div> 
-    <a href="javascript:prevPage()" id="btn_prev">Prev</a>
-    <a href="javascript:nextPage()" id="btn_next">Next</a> -->
+    <div id="page-control">
+        <span class="arrow-front" onclick="prevPage()" id="btn_prev"><img src="https://res.cloudinary.com/oluwamayowaf/image/upload/v1567617887/Asset_3_uaavde.png"></span>
+        <span class="arrow-front" onclick="nextPage()" id="btn_next"> <img src="https://res.cloudinary.com/oluwamayowaf/image/upload/v1567617877/Asset_1_xzchyu.png"></span> &nbsp; &nbsp;
 
-<div id="team-members"></div>
-    <div class="pagination">
-        <a href="">&laquo;</a>
-        <a href="#" onclick="generateTeam1()">1</a>
-        <a href="#" onclick="generateTeam2()">2</a>
-        <a href="#" onclick="generateTeam3()">3</a>
-        <a href="#" onclick="generateTeam4()">4</a>
-        <a href="#" onclick="generateTeam5()">5</a>
-        <a href="#" onclick="generateTeam6()">6</a>
-        <a href="#">&raquo;</a>
     </div>
-    
-
-
-</body>
-
-<footer>
-    <div class="logo">
-        <a href="home.html"><img src="https://res.cloudinary.com/dapowuyi/image/upload/v1567523863/Taxit_s4dqwy.png"></a>
+    <div class="center">
+        <h4>PAGE <span id="page"></span> </h4>
     </div>
-    <div class="footer-contents">
-        <div class="about">
 
 
-            <h4>About Us</h4>
-            <p>TaxIt.NG is a financial non-governmental organisation built by a team of young interns and change agents to solve the persisting problem of tax collection and poor accountable utilisation of tax revenue to create social development and benefits
-                to taxpayers... <a href="">More</a> </p>
-        </div>
-        <div class="news">
-            <h4>Newsletter</h4>
-            <p>Stay updated with our latest news & products</p>
-            <div id="embed-signup">
-                <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative">
-                    <div>
 
-                        <input class="news-text" name="EMAIL" placeholder="Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '" required="" type="email">
-                        <button id="go-btn">Go</button>
-                    </div>
 
-                </form>
-            </div>
-        </div>
-        <div class="contact">
-            <h4>Contact Us</h4>
 
-            <p>3, Birrel Avenue <br> Yaba, Lagos <br>
-                <a href="mailto:info@taxit.ng">info@taxit.ng</a> <br> 01-2345678 <br> 08489102638, 8920271538. <br>
-            </p>
 
-        </div>
-        <div class="social">
-            <h4>Follow Us</h4>
-            <div class="sm">
-
-                    <a href="https://twitter.com/Taxit_NG"><i class="fab fa-twitter"></i></a> &nbsp &nbsp
-                    <a href="https://www.facebook.com/Taxit-NG-105901454125652/"><i class="fab fa-facebook-square"></i></a> &nbsp &nbsp
-                    <a href="https://www.instagram.com/taxitng/"><i class="fab fa-instagram"></i></a> &nbsp &nbsp
-                    <a href="#"><i class="fab fa-whatsapp"></i></a> &nbsp &nbsp
-                    <a href="https://www.linkedin.com/in/taxit-ng-2b7649192/"><i class="fab fa-linkedin"></i></a>
-                </div>
-        </div>
-        
-    </div>
-    <div class="copyright">
-            <p>
-                Copyright &copy;
-                <script>
-                    document.write(new Date().getFullYear());
-                </script> &nbsp &nbsp All rights reserved | Team Helsinki </p>
-        </div>
-</footer>
 
 </body>
 
 </html>
-
