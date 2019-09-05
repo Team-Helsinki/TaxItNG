@@ -17,22 +17,32 @@
 </head>
 
 <body onload="generateTeam()">
-    <nav>
-        <div class="header">
-            <div class="logo">
-                <a href="home.html"><img src="https://res.cloudinary.com/dcczd9zz5/image/upload/v1567174130/ff_nbwkbr.png"></a>
-            </div>
-            <ul class="menu">
-                <a href="#">Home</a>
-                <a href="#">Projects</a>
-                <a href="#">Contact Us</a>
-                <a href="team.html">Team</a>
-                <a href="about.html">About Us</a>
-                <a href="signin.html" id="menu-highlight"><button class="login-btn" type="button">Login</button></a>
-            </ul>
+    <div class="header" id="myheader">
+        <a href="home.html" class="logo"><img src="https://res.cloudinary.com/dcczd9zz5/image/upload/v1567174130/ff_nbwkbr.png"></a>
+        <div class="header-right">
+
+            <a href="index.html">Home</a>
+            <a href="project.html">Projects</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="team.html">Team</a>
+            <a href="about.html">About Us</a>
+            <a href="signin.html" id="menu-highlight"><button class="login-btn" type="button">Login</button></a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
-    </nav>
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myheader");
+            if (x.className === "header") {
+                x.className += " responsive";
+            } else {
+                x.className = "header";
+            }
+        }
+    </script>
     <div class="about-section">
+        <div class="about_image"><img src="https://res.cloudinary.com/dapowuyi/image/upload/v1567507091/about_us2_kctowy.jpg" alt=""></div>
         <h2>About Taxit.NG</h2>
         <p> It's a given that governmental performance plays a key role in the willingness of the citizens to continue fulfilling their obligations to the state, one of which includes paying taxes. But when there's a disconnect between service delivery on
             the government's part and the amount being taxed, what should be an integral part of a state's development then becomes something citizens are wary of. A group of teeming young interns saw this problem and sought to create a portal where there's
