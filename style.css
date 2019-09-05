@@ -1,4 +1,4 @@
-body{
+body {
     display: flex;
     flex-flow: column;
     padding: 0;
@@ -7,7 +7,7 @@ body{
     margin: 0 auto;
 }
 
-.logo-section img{
+.logo-section img {
     width: 130px;
     height: 55px;
     margin-left: 200px;
@@ -15,7 +15,7 @@ body{
     padding-left: 20px;
 }
 
-.logo img{
+.logo img {
     width: 130px;
     height: 55px;
     margin-left: 200px;
@@ -23,21 +23,21 @@ body{
     padding-left: 20px;
 }
 
-.header{
+.header {
     height: 100px;
-    background:white;
+    background: white;
     padding: 0 20px;
-    color: #fff; 
-    margin-bottom: 150px;
+    color: #fff;
 }
 
-.menu{
+.menu {
     float: right;
     line-height: 100px;
 }
 
-.menu a{
-    color: #3F3D56;;
+.menu a {
+    color: #3F3D56;
+    ;
     text-transform: uppercase;
     text-decoration: none;
     padding: 0 10px;
@@ -49,7 +49,7 @@ body{
     float: left;
 }
 
-.btn{
+.btn {
     color: #FFF;
     background-color: #6666ff;
     border-radius: 20px;
@@ -62,7 +62,7 @@ body{
     margin-bottom: 50px;
 }
 
-.btn-pay{
+.btn-pay {
     color: #FFF;
     background-color: #6666ff;
     border-radius: 20px;
@@ -73,8 +73,7 @@ body{
     cursor: pointer;
 }
 
-
-.login-btn{
+.login-btn {
     color: #FFF;
     background-color: #6666ff;
     border-radius: 20px;
@@ -85,32 +84,32 @@ body{
     cursor: pointer;
 }
 
-.landing{
+.landing {
     height: 50vh;
-    margin-top: 0px;
+    margin-top: 150px;
     padding-top: 30px;
     display: inline-block;
 }
 
-.landing h1{
+.landing h1 {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 50px;
     margin: 0px;
 }
 
-.landing p{
+.landing p {
     font-size: 18px;
 }
 
-.landing-text{
+.landing-text {
     width: 40%;
     margin-left: 200px;
     padding-left: 20px;
     float: left;
 }
 
-.landing-image{
+.landing-image {
     width: 30%;
     float: right;
     padding-top: 20px;
@@ -118,43 +117,43 @@ body{
     margin-bottom: 50px;
 }
 
-.info{
+.info {
     background: #00091a;
     color: #FFF;
     opacity: 0.8;
     height: 620px;
     display: block;
     margin-top: 50px;
-    
 }
 
-.cc-pay, .projects{
+.cc-pay,
+.projects {
     width: 35%;
     margin-left: 200px;
     padding-left: 20px;
     margin-top: 70px;
 }
 
-.card-image{
+.card-image {
     width: 30%;
     float: right;
     margin-top: -180px; 
 }
 
-.project-image{
+.project-image {
     width: 30%;
     float: right;
     margin-top: -150px;
-
 }
 
-.card{
-   padding-top: 50px;
-}
-
-.fund-project{
+.card {
     padding-top: 50px;
 }
+
+.fund-project {
+    padding-top: 50px;
+}
+
 
 .midpage{
     margin: auto;
@@ -162,9 +161,7 @@ body{
     margin-bottom: 25px;
 }
 
-
-
-footer{
+footer {
     background: #00091a;
     color: #FFF;
     opacity: 0.8;
@@ -172,54 +169,57 @@ footer{
     margin-top: 200px;
 }
 
-.footer-contents{
+.footer-contents {
     margin-left: 200px;
     width: 100%;
 }
 
-.sm a{
+.sm a {
     color: #FFF;
 }
 
-.sm a:hover{
+.sm a:hover {
     color: #6666ff;
 }
 
-.about, .contact, .news, .social{
+.about,
+.contact,
+.news,
+.social {
     width: 20%;
     float: left;
     padding: 20px;
 }
 
-.about h4{
+.about h4 {
     color: #6666ff;
 }
 
-.contact h4{
+.contact h4 {
     color: #6666ff;
 }
 
-.news h4{
+.news h4 {
     color: #6666ff;
 }
 
-.social h4{
+.social h4 {
     color: #6666ff;
 }
 
-.contact a{
-    color:  #6666ff;
+.contact a {
+    color: #6666ff;
 }
 
-.contact a:hover{
-    color:  #FFF;
+.contact a:hover {
+    color: #FFF;
 }
 
-.copyright{
+.copyright {
     float: left;
 }
 
-#go-btn{
+#go-btn {
     color: #FFF;
     background-color: #6666ff;
     width: 50px;
@@ -230,9 +230,7 @@ footer{
     cursor: pointer;
 }
 
-
-.calculate{
-    
+.calculate {
     background: #ecf2f9;
     width: 350px;
     margin: -110px auto;
@@ -241,8 +239,8 @@ footer{
     position: relative;
 }
 
-.calculate h2{
-   color: #002699;
+.calculate h2 {
+    color: #002699;
 }
 
 .calculate .input {
@@ -257,7 +255,7 @@ footer{
     color: #555555;
 }
 
-.calculate .income{
+.calculate .income {
     width: 91.5%;
     letter-spacing: 1px;
     word-wrap: 3px;
@@ -268,7 +266,7 @@ footer{
     border-radius: 5px;
 }
 
-.calculate .textinput{
+.calculate .textinput {
     width: 91.5%;
     letter-spacing: 1px;
     word-wrap: 3px;
@@ -279,24 +277,25 @@ footer{
     border-radius: 5px;
 }
 
-.calculate .label{
+.calculate .label {
     display: block;
     color: #555555;
     margin-bottom: 6px;
-    }
+}
 
-.menu .active{
+.menu .active {
     color: #6666ff;
     font-weight: bold;
 }
 
-.calculate .percent{
+.calculate .percent {
     display: none;
     color: #ff0000;
 }
 
 
 /** About US and Team Page Stle **/
+
 .about-section {
     color: black;
     width: 80%;
@@ -313,6 +312,7 @@ h3 {
     text-align: justify;
 }
 
+s
 .about_image{
     margin-left: 400px;
     margin-top: -100px;
@@ -393,6 +393,7 @@ h3 {
     border-radius: 12px;
 }
 
+
 #team .team-btn {
     color: #FFF;
     background-color: #6666ff;
@@ -417,12 +418,14 @@ h3 {
     color: black;
 }
 
+
 .cards {
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
     max-width: 300px;
     margin: auto;
     text-align: center;
 }
+
 
 .hng{
     height: 50px;
@@ -433,6 +436,7 @@ h3 {
     text-transform: uppercase;
     font-weight: bold;
 }
+
 
 /* Change styles for span and cancel button on extra small screens */
 
@@ -462,9 +466,3 @@ h3 {
 header .menu{
     display: block;
 }
-
-
-
-    
-
-    
