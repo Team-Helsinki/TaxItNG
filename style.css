@@ -4,6 +4,7 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'Source Sans Pro', Helvetica;
+    margin: 0 auto;
 }
 
 .logo-section img{
@@ -124,7 +125,7 @@ body{
     height: 620px;
     display: block;
     margin-top: 50px;
-
+    
 }
 
 .cc-pay, .projects{
@@ -137,8 +138,7 @@ body{
 .card-image{
     width: 30%;
     float: right;
-    margin-top: -180px;
-   
+    margin-top: -180px; 
 }
 
 .project-image{
@@ -155,8 +155,6 @@ body{
 .fund-project{
     padding-top: 50px;
 }
-
-
 
 .midpage{
     margin: auto;
@@ -296,6 +294,175 @@ footer{
     display: none;
     color: #ff0000;
 }
+
+
+/** About US and Team Page Stle **/
+.about-section {
+    color: black;
+    width: 80%;
+    margin: auto auto;
+    padding: 1rem 0.5rem 0.5rem 1rem;
+}
+
+.about-section h2,
+h3 {
+    text-align: center;
+}
+
+.about-section p {
+    text-align: justify;
+}
+
+.about_image{
+    margin-left: 400px;
+    margin-top: -100px;
+}
+
+.team-image{
+   padding-bottom: 20px;
+   margin-left: 550px;
+   margin-top: -100px;
+}
+
+#partners {
+    color: black;
+    width: 80%;
+    margin: auto auto;
+    padding: 1rem 0.5rem 0.5rem 1rem;
+    text-align: center;
+}
+
+#team {
+    color: black;
+    width: 80%;
+    margin: auto auto;
+    padding: 1rem 0.5rem 0.5rem 1rem;
+}
+
+#team h2 {
+    text-align: center;
+    color: #3366ff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#team-members {
+    width: 90%;
+    margin: 5px auto 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px 20px 0 20px;
+    margin-bottom: 2rem;
+    line-height: 0%;
+}
+
+.member {
+    border-radius: 0px;
+    padding: 1.5rem;
+    margin-bottom: 0.7rem;
+    text-align: center;
+}
+
+.member img {
+    border-radius: 50%;
+}
+
+.member h4 {
+    color: black;
+    font-weight: 500px;
+    font-style: oblique;
+}
+
+.member p {
+    color: black;
+    font-style: italic;
+}
+
+.aboutus-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    min-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.logo-section {
+    display: flex;
+    padding: 30px;
+    color: black;
+    border-radius: 12px;
+}
+
+#team .team-btn {
+    color: #FFF;
+    background-color: #6666ff;
+    border-radius: 20px;
+    width: 220px;
+    height: 45px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 520px;  
+}
+
+#team button {
+    margin: auto;
+    display: inline-block;
+}
+
+.card-section {
+    display: flex;
+    padding: 30px;
+    color: black;
+}
+
+.cards {
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.hng{
+    height: 50px;
+}
+
+.title{
+    color: #3366ff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 50%;
+    }
+}
+
+#mission {
+    font-weight: bold;
+    font-style: italic;
+    text-align: left;
+}
+
+.tax-photo {
+    width: 60%;
+    height: 58%;
+    align-self: center;
+    padding-left: 20%;
+}
+
+header .menu{
+    display: block;
+}
+
 
 
     

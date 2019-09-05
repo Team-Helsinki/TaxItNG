@@ -13,14 +13,14 @@
 <body>
           <div class="header">
                 <div class="logo">
-                        <a href="index.html"><img src="https://res.cloudinary.com/dcczd9zz5/image/upload/v1567174130/ff_nbwkbr.png"></a>
+                        <a href="index.html"><img src="https://res.cloudinary.com/dapowuyi/image/upload/v1567523863/Taxit_s4dqwy.png"></a>
                 </div>
               <ul class="menu">
                     <a href="index.html">Home</a>
                     <a href="project.html">Projects</a>
                     <a href="payment.html" class="active">Pay Tax</a>
                     <a href="contact.html">Contact Us</a>
-                    <a href="#">Team</a>
+                    <a href="team.html">Team</a>
                     <a href="about.html">About Us</a>
                     <a href="signin.html" id="menu-highlight"><button class="login-btn" type="button">Login</button></a>
 
@@ -29,93 +29,116 @@
             </div>              
             
        
-        <div class="calculate">
-            <h2>Calculate Tax</h2>
-        <form action="">
-                <p>
-                        <label class="label">Status</label>
-                        <select class="input"> 
-                            <option value="1">Corporate</option> 
-                            <option value="2">Individual</option> 
-                        </select>
-                    </p>
-            <p></p><input type="text" class="textinput" name="" id="" placeholder="Name of Tax Payer"></p>
-            <p></p><input type="email" class="textinput" name="" id="" placeholder="Email Address"></p>
-            <p></p><input type="number" class="textinput" name="" id="" placeholder="Phone No."></p>
-            <p>
-                    <label class="label">Payment Month</label>
-                    <select class="input"> 
-                            <option value="sept">September</option> 
-                            <option value="oct">October</option> 
-                            <option value="nov">November</option> 
-                        </select>
+            <div class="calculate">
+                    <h2>Pay Tax</h2>
+                <form class="pay-form" action="">
+                  <label for="" class="msg"></label>
+                        <p>
+                                <select class="input" id="status"> 
+                                    <option value="0">Choose your status</option>
+                                    <option value="1">Corporate</option> 
+                                    <option value="2">Individual</option> 
+                                </select>
+                            </p>
+                    <p></p><input type="text" class="textinput" name="" id="name" placeholder="Name of Tax Payer" required></p>
+                    <p></p><input type="email" class="textinput" name="" id="email" placeholder="Email Address" required></p>
+                    <p></p><input type="text" class="textinput" name="" id="phone" placeholder="Phone No." required></p>
+                    <p>
+                           
+                            <select class="input" id="month"> 
+                                    <option value="sel">Select Tax Month</option> 
+                                    <option value="jan">January</option> 
+                                    <option value="feb">February</option> 
+                                    <option value="mar">March</option> 
+                                    <option value="apr">April</option> 
+                                    <option value="may">May</option> 
+                                    <option value="jun">June</option>
+                                    <option value="jul">July</option> 
+                                    <option value="aug">August</option> 
+                                    <option value="sep">September</option>
+                                    <option value="oct">October</option> 
+                                    <option value="nov">November</option> 
+                                    <option value="dec">December</option>
+                                </select>  
+                            </p>         
+                        <p><input type="text" class="textinput income" name="income" id="annual_income" placeholder="Please, input your annual Income" required></p>
+                        <p><label class="percent"></label></p>
                     
-                    </p>
+                      
+                        <p></p><input type="text" class="textinput income" name="" id="taxDue" placeholder="Tax Amount Due" readonly></p>
+        
+                        <form>
+                            <a class="flwpug_getpaid" 
+                            data-PBFPubKey="FLWPUBK_TEST-adc34bcd81cd2a3c566caa003ae499ab-X" 
+                            data-txref="rave-123456" 
+                            data-amount="2000" 
+                            data-customer_email="user@example.com" 
+                            data-meta-flightID="APX0093GHK"
+                            data-currency="NGN" 
+                            data-pay_button_text="Pay Tax" 
+                            data-country="NG" 
+                            data-redirect_url="https://your-website.com/urlredirect"></a>
+                          
+                            <script type="text/javascript" src="https://api.ravepay.co/flwv3-pug/getpaidx/api/flwpbf-inline.js"></script>
+                          </form>
+                        <!-- <p><button class="btn-pay" id="submit">Pay Tax</button></p> -->
+                   
+                </form>
+            </div> 
 
-                <p></p><input type="number" class="textinput income" name="" id="" placeholder="Please, input your annual Income"></p>
-                <p><label class="percent">Tax % to be paid</label></p>
-            
-                <p><button class="btn-pay" id="calculate">Calculate Tax</button></p>
-                <p></p><input type="number" class="textinput income" name="" id="" placeholder="Tax Amount"></p>
-                <p><button class="btn-pay" id="submit">Pay Tax</button></p>
-           
-        </form>
-    </div>
-            </div>
-
-        <footer>
-                <div class="logo">
-                        <a href="index.html"><img src="https://res.cloudinary.com/dcczd9zz5/image/upload/v1567174130/ff_nbwkbr.png"></a>
+            <footer>
+                    <div class="logo">
+                        <a href="home.html"><img src="https://res.cloudinary.com/dapowuyi/image/upload/c_scale,h_90,w_483/v1567523863/Taxit_s4dqwy.png"></a>
                     </div>
                     <div class="footer-contents">
                         <div class="about">
-
-
-            <h4>About Us</h4>
-                <p>TaxIt.NG is a financial non-governmental organisation built by a team of young interns and change agents to solve the persisting 
-                    problem of tax collection and poor accountable 
-                    utilisation of tax revenue to create social 
-                    development and benefits to taxpayers... <a href="">More</a> </p>
-            </div>
-            <div class="news">
-                <h4>Newsletter</h4>
-                    <p>Stay updated with our latest news & products</p>		
-                        <div id="embed-signup">
-                        <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative">
-                            <div>
-                                <input name="EMAIL" placeholder="Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '" required="" type="email">
-                                <button  id="go-btn">Go</button>		
-                            </div>									
-                            
-                        </form>
-                </div>
-            </div>
-            <div class="contact">
-                    <h4>Contact Us</h4>
-                    
-                        <p>3, Birrel Avenue <br>
-                            Yaba, Lagos <br>
-                            <a href="mailto:info@taxit.ng">info@taxit.ng</a> <br>
-                            01-2345678 <br>
-                            08489102638, 8920271538. <br>
-                        </p>
-                    
-                </div>
-                <div class="social">
-                <h4>Follow Us</h4>
-                    <div class="sm">
-                            <a href="#"><i class="fab fa-twitter"></i></a> &nbsp &nbsp 
-                            <a href="#"><i class="fab fa-facebook-square"></i></a> &nbsp &nbsp 
-                            <a href="#"><i class="fab fa-instagram"></i></a> &nbsp &nbsp 
-                            <a href="#"><i class="fab fa-whatsapp"></i></a> &nbsp &nbsp 
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                
+                
+                            <h4>About Us</h4>
+                            <p>TaxIt.NG is a financial non-governmental organisation built by a team of young interns and change agents to solve the persisting problem of tax collection and poor accountable utilisation of tax revenue to create social development and benefits
+                                to taxpayers... <a href="">More</a> </p>
                         </div>
+                        <div class="news">
+                            <h4>Newsletter</h4>
+                            <p>Stay updated with our latest news & products</p>
+                            <div id="embed-signup">
+                                <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative">
+                                    <div>
+                                        <input name="EMAIL" placeholder="Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '" required="" type="email">
+                                        <button id="go-btn">Go</button>
+                                    </div>
+                
+                                </form>
+                            </div>
+                        </div>
+                        <div class="contact">
+                            <h4>Contact Us</h4>
+                
+                            <p>3, Birrel Avenue <br> Yaba, Lagos <br>
+                                <a href="mailto:info@taxit.ng">info@taxit.ng</a> <br> 01-2345678 <br> 08489102638, 8920271538. <br>
+                            </p>
+                
+                        </div>
+                        <div class="social">
+                            <h4>Follow Us</h4>
+                            <div class="sm">
+                                <a href="https://twitter.com/Taxit_NG"><i class="fab fa-twitter"></i></a> &nbsp &nbsp
+                                <a href="https://www.facebook.com/Taxit-NG-105901454125652/"><i class="fab fa-facebook-square"></i></a> &nbsp &nbsp
+                                <a href="https://www.instagram.com/taxitng/"><i class="fab fa-instagram"></i></a> &nbsp &nbsp
+                                <a href="#"><i class="fab fa-whatsapp"></i></a> &nbsp &nbsp
+                                <a href="https://www.linkedin.com/in/taxit-ng-2b7649192/"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                        
                     </div>
-                        <div class="copyright">
-                <p>
-                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> &nbsp &nbsp  All rights reserved | Team Helsinki </p> 
-                </div>
-            </div>
-        </footer>
+                    <div class="copyright">
+                            <p>
+                                Copyright &copy;
+                                <script>
+                                    document.write(new Date().getFullYear());
+                                </script> &nbsp &nbsp All rights reserved | Team Helsinki </p>
+                        </div>
+                </footer>
+                
 </body>
 </html> 
