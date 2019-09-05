@@ -363,19 +363,12 @@ const members = [{
         cvlink: "https://incolet.github.io/",
         contribution: "Designed the login authentication and signup page, supported the team lead to ensure the success of the project"
     },
-    {
-        id: "",
-        name: "Ella Oku",
-        role: "Mobile Apps Development",
-        image: "https://res.cloudinary.com/ellaoku/image/upload/v1566813077/ella_i0ecmr.jpg",
-        cvlink: "",
-        contribution: ""
-    },
+
     {
         id: "SHN01670 ",
         name: "Mary Uchendu",
         role: "UI/UX Design",
-        image: "https://res.cloudinary.com/ellaoku/image/upload/v1566813077/ella_i0ecmr.jpg",
+        image: "https://res.cloudinary.com/mayrhie/image/upload/v1566657277/Snapchat-1582152743_nia0h3.jpg",
         cvlink: "http://127.0.0.1:5500/Mary.html",
         contribution: "As much as I was really interested in contributing to the team project, the task was beyond my skill/capacity. However, I ensured I completed forms and other related things when asked to do so during the course of the project."
     },
@@ -480,12 +473,20 @@ const members = [{
         image: "https://res.cloudinary.com/oluwamayowaf/image/upload/v1567425691/Taxitng/Screenshot_20190831-172915_vwq9yt.png"
     },
     {
-        id: "snh00448",
+        id: "SHN00448",
         name: "Omikunle Okiki Joshua",
         role: "Front End Development",
         image: "https://res.cloudinary.com/ddu0ww15f/image/upload/c_scale,h_651/v1566596837/IMG_4092_grrjlv.jpg",
         cvlink: "https://okikijoshua.github.io/startdotng/",
         contribution: "Just some code clean that i did some pull request for, but i doubt there were merged I am on the frontend subteam though",
+    },
+    {
+        id: "",
+        name: "Ella Oku",
+        role: "Mobile Apps Development",
+        image: "https://res.cloudinary.com/ellaoku/image/upload/v1566813077/ella_i0ecmr.jpg",
+        cvlink: "",
+        contribution: ""
     },
 
 

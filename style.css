@@ -466,7 +466,7 @@ footer {
 }
 
 .about-section h2,
-.about-section h3 {
+h3 {
     text-align: center;
 }
 
@@ -474,22 +474,36 @@ footer {
     text-align: justify;
 }
 
-s .about_image {
-    margin-left: 400px;
-    margin-top: -100px;
+
+/*======  added style for about-section sub section ======*/
+
+.sub-about-section {
+    display: inline;
+    padding: 30px;
 }
 
-.team-image {
-    padding-bottom: 20px;
-    margin-left: 550px;
-    margin-top: -100px;
+#goal,
+#mission {
+    vertical-align: top;
+    display: inline-block;
+    width: 40%;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-#partners {
+
+/*==== added a class selector for partners and h2 style ======*/
+
+.partners {
     color: black;
     width: 80%;
     margin: auto auto;
     padding: 1rem 0.5rem 0.5rem 1rem;
+    text-align: center;
+}
+
+.partners h2,
+h3 {
     text-align: center;
 }
 
@@ -618,6 +632,23 @@ s .about_image {
 }
 
 
+/*===== added #goal =====*/
+
+#mission,
+#goal {
+    font-weight: bold;
+    font-style: italic;
+    text-align: left;
+}
+
+.tax-photo {
+    width: 60%;
+    height: 58%;
+    align-self: center;
+    padding-left: 20%;
+}
+
+
 /* Change styles for span and cancel button on extra small screens */
 
 @media screen and (max-width: 300px) {
@@ -631,6 +662,25 @@ s .about_image {
     .team-members {
         grid-template-columns: repeat(6, 1fr);
         grid-gap: 2px;
+    }
+}
+
+
+/*========================== About us page responsive code =================================*/
+
+@media screen and (max-width: 700px) {
+    #goal,
+    #mission {
+        display: block;
+        width: 90%;
+    }
+    .card-section {
+        display: block;
+        width: 80%;
+        align-content: center;
+    }
+    #team {
+        padding: 20px;
     }
 }
 
