@@ -84,11 +84,11 @@ const members = [{
     },
     {
         id: "SHN00294",
-        name: "Amanam Israel",
+        name: "Amanam israel Akpan",
         role: "Frontend Development",
         image: "https://res.cloudinary.com/cloud-y/image/upload/v1566514767/DSC_0921-01_1_db7yjw.jpg",
-        cvlink: "",
-        contribution: "Led UI design and part of front end design "
+        cvlink: "https://israelamanam.github.io/Html-CV/",
+        contribution: "Team-lead ui/ux track lead ui/ux designer "
     },
     {
         id: "SHN00744",
@@ -208,7 +208,7 @@ const members = [{
         id: "SHN01224",
         name: "Isioma Andrew",
         role: "Frontend development",
-        image: "https://res.cloudinary.com/issyyan/image/upload/v1566652966/8590EE1D-187C-4B6E-95FB-73A5C7A8FD40_oqey4g.png",
+        image: "https://res.cloudinary.com/issyyan/image/upload/v1567784069/78793BAC-E1CC-4929-BF10-0CF1E7752592_gs8me3.jpg",
         cvlink: "https://issyya.github.io/isioma-contactform/",
         contribution: "I've majorly contributed towards feedback on the team as regards front-end and design. "
     },
@@ -263,6 +263,22 @@ const members = [{
         image: "https://res.cloudinary.com/veekey/image/upload/v1566581094/IMG_20190823_182300_gkekev.jpg",
         cvlink: "https://veekeya.github.io/Veekey",
         contribution: "I created the 'forgot password' page and worked with the content management team as a Researcher and an Editor."
+    },
+    {
+        id: "SHN01559",
+        name: "Sidney Ihunwaeze",
+        role: "Backend Development",
+        image: "https://res.cloudinary.com/x-sid/image/upload/v1566549618/samples/My%20uploads/2018-07-01-19-24-05-142_w8zdxf.jpg",
+        cvlink: "x-sid.github.io",
+        contribution: "Worked on the index and about page i made changes to the nav-item icons and also modified the font size and general positioning of the nav elements."
+    },
+    {
+        id: "SHN01532",
+        name: "Adetunji Adegeye",
+        role: "Backend Development",
+        image: "https://res.cloudinary.com/incolet/image/upload/v1566520159/tunji_mjpxj9.jpg",
+        cvlink: "https://incolet.github.io/",
+        contribution: "Designed the login authentication and signup page, supported the team lead to ensure the success of the project"
     },
 
     {
@@ -349,22 +365,7 @@ const members = [{
         cvlink: "https://github.com/Capistone/Segun-CV/tree/Segun-CV-update-CSS",
         contribution: "I am part of the Development team, made research on tax policies and regulations, i have cloned the project and almost done with updating this on the project"
     },
-    {
-        id: "SHN01559",
-        name: "Sidney Ihunwaeze",
-        role: "Backend Development",
-        image: "https://res.cloudinary.com/x-sid/image/upload/v1566549618/samples/My%20uploads/2018-07-01-19-24-05-142_w8zdxf.jpg",
-        cvlink: "x-sid.github.io",
-        contribution: "Worked on the index and about page i made changes to the nav-item icons and also modified the font size and general positioning of the nav elements."
-    },
-    {
-        id: "SHN01532",
-        name: "Adetunji Adegeye",
-        role: "Backend Development",
-        image: "https://res.cloudinary.com/incolet/image/upload/v1566520159/tunji_mjpxj9.jpg",
-        cvlink: "https://incolet.github.io/",
-        contribution: "Designed the login authentication and signup page, supported the team lead to ensure the success of the project"
-    },
+
 
     {
         id: "SHN01670 ",
@@ -508,12 +509,21 @@ const members = [{
         contribution: "Tried working on the pagination for the team page using javascript "
     },
     {
-        id: "",
-        name: "Ella Oku",
-        role: "Mobile Apps Development",
-        image: "https://res.cloudinary.com/ellaoku/image/upload/v1566813077/ella_i0ecmr.jpg",
-        cvlink: "",
-        contribution: ""
+        id: "SHN00927",
+        name: "Itunu Olurin",
+        role: "Frontend Development",
+        image: "https://res.cloudinary.com/itunuo/image/upload/v1566527881/profile_picture1_otqlta.png",
+        cvlink: "https://gracious-dijkstra-2ab62f.netlify.com/itunu.html",
+        contribution: "Created a mock-up dashboard for User update."
+    },
+
+    {
+        id: "SHN00861",
+        name: "Oser Raphaels",
+        role: "Frontend Development",
+        image: "https://res.cloudinary.com/onesoaringeagle/image/upload/v1567614910/Passport_wbn7bu.jpg",
+        cvlink: "https://oseraphaels.github.io/Host-CV-Page/",
+        contribution: "I am in the Dev subgroup of #team_Helsinki. We are geared up for tasks ahead and anticipate the Dev components of the Taxit.ng Project."
     },
 
 
