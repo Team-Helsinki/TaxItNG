@@ -1,14 +1,4 @@
 const members = [{
-        id: "SHN00559",
-        name: "Sylvester Akwaowo",
-        role: "Mobile Apps Development",
-        image: "https://res.cloudinary.com/codepickin/image/upload/v1567429542/My%20web%20Project/sly_fgccpk.jpg",
-        contribution: "Team Lead, Cordinated Fromtend and mobile app development ",
-        cvlink: ""
-
-
-    },
-    {
         id: "SHN00859",
         name: "Abdulhafiz Ahmed",
         role: "Backend Development",
@@ -19,6 +9,18 @@ const members = [{
         github: "https://github.com/rexdavinci",
         twitter: "https://twitter.com/abdhafizahmed"
     },
+
+    {
+        id: "SHN00661",
+        name: "Sylvester Akwaowo",
+        role: "Mobile Apps Development",
+        image: "https://res.cloudinary.com/codepickin/image/upload/v1567429542/My%20web%20Project/sly_fgccpk.jpg",
+        contribution: "Team Lead, Cordinated Fromtend and mobile app development ",
+        cvlink: ""
+
+
+    },
+
     {
         id: "SHN01458",
         name: "Dapo Adewuyi",
@@ -479,6 +481,31 @@ const members = [{
         image: "https://res.cloudinary.com/ddu0ww15f/image/upload/c_scale,h_651/v1566596837/IMG_4092_grrjlv.jpg",
         cvlink: "https://okikijoshua.github.io/startdotng/",
         contribution: "Just some code clean that i did some pull request for, but i doubt there were merged I am on the frontend subteam though",
+    },
+
+    {
+        id: "SHN00455",
+        name: "Okenwa Chimaobi Franklyn",
+        role: "Frontend Development",
+        image: "https://res.cloudinary.com/franklyno/image/upload/v1566672417/franklyn_s7qnb5.jpg",
+        cvlink: "https://franklynwisdom.github.io/Franklyn",
+        contribution: ""
+    },
+    {
+        id: "SHN00958",
+        name: "James Dayo",
+        role: "Frontend Development",
+        image: "https://res.cloudinary.com/diubyoojw/image/upload/v1554460404/IMG_20181028_100531.jpg",
+        cvlink: "https://dea1j.github.io/StartNg-Task4",
+        contribution: "I arranged the user interface of the profile page. It has two pages, i linked both pages also also adding its header and footer. "
+    },
+    {
+        id: "SHN00713",
+        name: "Theresa Nnenna Anyadike",
+        role: "Frontend Development",
+        image: "https://res.cloudinary.com/nenatesz/image/upload/v1566621623/IMG-20190809-WA0027_1566201371506_kwqhbc.jpg",
+        cvlink: "https://nenatesz.github.io/Task-2/",
+        contribution: "Tried working on the pagination for the team page using javascript "
     },
     {
         id: "",
