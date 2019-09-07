@@ -525,6 +525,14 @@ const members = [{
         cvlink: "https://oseraphaels.github.io/Host-CV-Page/",
         contribution: "I am in the Dev subgroup of #team_Helsinki. We are geared up for tasks ahead and anticipate the Dev components of the Taxit.ng Project."
     },
+    {
+        id: "SHN01661",
+        name: "Chris Andasei",
+        role: "Mobile Apps Adevelopment",
+        image: "https://res.cloudinary.com/qrissy/image/upload/v1566751537/rwqkc2wxyyslyzlsai9d.jpg",
+        cvlink: "https://qrissy.github.io/start.ng-task2/",
+        contribution: "I made some suggestion to the project "
+    },
 
 
 ]
